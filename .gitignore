@@ -1,0 +1,14 @@
+# Secrets - never commit private keys or certificates
+*.pfx
+*.pem
+*.key
+
+# .NET build output and release zips
+bin/
+obj/
+out/
+*.zip
+
+# OS / editor files
+.DS_Store
+Thumbs.db
